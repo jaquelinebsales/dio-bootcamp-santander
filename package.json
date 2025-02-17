@@ -1,0 +1,24 @@
+{
+  "name": "dio-bootcamp-santander",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start":"npx tsc && node frameworks/typescript-para-angular/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaquelinebsales/dio-bootcamp-santander.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaquelinebsales/dio-bootcamp-santander/issues"
+  },
+  "homepage": "https://github.com/jaquelinebsales/dio-bootcamp-santander#readme",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}

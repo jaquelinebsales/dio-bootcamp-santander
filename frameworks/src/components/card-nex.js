@@ -57,6 +57,7 @@ class Cardnews extends HTMLElement{
                 box-shadow: 10px 10px 31px -7px rgba(0,0,0,0.37);
                 justify-content: space-between;
                 margin: auto;
+                font-family: arial;
             }
 
             .card_left{
