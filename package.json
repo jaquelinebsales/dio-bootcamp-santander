@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start":"npx tsc && node frameworks/typescript-para-angular/index.js",
+    "start": "npx tsc && node frameworks/typescript-para-angular/index.js",
+    "start:dev":"ts-node-dev --respawn frameworks/typescript-para-angular/src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/jaquelinebsales/dio-bootcamp-santander#readme",
   "description": "",
   "devDependencies": {
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.7.3"
   }
 }
