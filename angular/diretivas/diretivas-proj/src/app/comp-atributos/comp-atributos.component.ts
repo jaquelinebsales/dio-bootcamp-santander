@@ -1,11 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { NgClass, NgStyle,NgFor } from '@angular/common';
 import 'zone.js';
-import { FormsModule } from '@angular/forms'
 @Component({
   selector: 'app-comp-atributos',
-  standalone: true,
-  imports: [NgClass, NgStyle, FormsModule, NgFor],
+  standalone: false,
   templateUrl: './comp-atributos.component.html',
   styleUrl: './comp-atributos.component.css'
 })

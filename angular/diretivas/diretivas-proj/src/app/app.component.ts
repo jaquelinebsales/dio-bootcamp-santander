@@ -1,16 +1,19 @@
-import { CompAtributosComponent } from './comp-atributos/comp-atributos.component';
-import { NgIf, NgTemplateOutlet } from '@angular/common';
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { CardComponent } from './card/card.component';
+
+import { Component, OnInit } from '@angular/core';
+
+
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet, CardComponent, NgIf, CompAtributosComponent],
+  standalone: false,
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
+
+
+export class AppComponent implements OnInit{
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
   title = 'diretivas-proj';
   isAliveCard = true;
 }

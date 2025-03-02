@@ -1,10 +1,8 @@
 
 import { Component, OnInit } from '@angular/core';
-import { NgFor,NgSwitch, NgSwitchCase, NgSwitchDefault } from '@angular/common';
 @Component({
   selector: 'app-card',
-  standalone: true,
-  imports: [NgFor, NgSwitch, NgSwitchCase, NgSwitchDefault],
+  standalone: false,
   templateUrl: './card.component.html',
   styleUrl: './card.component.css'
 })

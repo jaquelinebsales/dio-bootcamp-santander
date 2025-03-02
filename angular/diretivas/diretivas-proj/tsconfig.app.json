@@ -10,10 +10,13 @@
   },
   "files": [
     "src/main.ts",
-    "src/main.server.ts",
-    "src/server.ts"
+    "src/app/app.module.ts" // Mantenha apenas os arquivos necessários
   ],
   "include": [
-    "src/**/*.d.ts"
+    "src/**/*.ts" // Inclua todos os arquivos .ts na pasta src
+  ],
+  "exclude": [
+    "src/test.ts",
+    "src/**/*.spec.ts"
   ]
 }
