@@ -2,14 +2,29 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.card{
-    border: 1px solid black;
+:root {
+    --rosa: #FF3562;
+    --azul: #50A2A7;
+    --cinza: #313638;
+    --laranja: #F09D51;
+}
+
+.container{
     width: 250px;
     height: 350px;
+    margin: auto;
+}
 
+.search-bar input{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.card{
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
-    background-color: #232323;
+    background-color: #313638;
 
     border-radius: 10px;
 }
@@ -23,7 +38,12 @@
 
     height: 70%;
 }
-
+.card__body img{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .card__title{
     margin-right: auto;
     margin-left: auto;
@@ -39,11 +59,14 @@
     flex-direction: row;
 
     justify-content: center;
+    margin-bottom: 9px;
 }
 
 .card__stats__type{
     color: white;
-    background-color: coral;
+    background-color: #FF3562;
+
+    font-weight: bold;
     padding: 5px;
     margin-right: 5px;
     border-radius: 5px;
