@@ -1,3 +1,4 @@
+package edu.jaqueline.anatomia_de_classes;
 public class MinhaClasse {
 
     public static void main (String [] args){
